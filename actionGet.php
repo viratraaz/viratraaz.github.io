@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <body>
+    <head>
 <?php
-echo "Hi ".$_GET['name'].". ";
-echo "You are ".$_GET['age']." years old.";
+echo "Hi ".$_POST['name'].". ";
+echo "You are ".$_POST['age']." years old.";
 ?>
-</body>
+</head>
 </html>
