@@ -1,4 +1,8 @@
-<?php
-echo "Hi ".$_POST['name'].". ";
-echo "You are ".$_POST['age']." years old.";
-?>
+<html>
+<body>
+
+Welcome <?php echo $_POST["name"]; ?><br />
+Your age: <?php echo $_POST["age"]; ?>
+
+</body>
+</html>
